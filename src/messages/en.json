@@ -1,0 +1,727 @@
+{
+ "nav": {
+  "home": "Home",
+  "about": "About",
+  "academics": "Academics",
+  "admissions": "Admissions",
+  "contact": "Contact",
+  "apply": "Apply now",
+  "campus": "Campus",
+  "student": "Student Life",
+  "news": "News & Events"
+ },
+ "hero": {
+  "badge": "Admissions open",
+  "title": "Where curiosity becomes a lifelong journey",
+  "sub": "A modern learning community that nurtures confident, creative and caring students.",
+  "cta1": "Start admission",
+  "cta2": "Explore programs"
+ },
+ "stats": [
+  {
+   "n": 1200,
+   "l": "Students"
+  },
+  {
+   "n": 90,
+   "l": "Educators"
+  },
+  {
+   "n": 25,
+   "l": "Years of excellence"
+  },
+  {
+   "n": 98,
+   "l": "% graduate success"
+  },
+  {
+   "n": 30,
+   "l": "Clubs & activities"
+  },
+  {
+   "n": 18,
+   "l": "Nationalities"
+  }
+ ],
+ "programs": {
+  "title": "Programs for every stage",
+  "items": [
+   {
+    "t": "Early Years",
+    "d": "Play-based discovery and early skills."
+   },
+   {
+    "t": "Primary",
+    "d": "A strong foundation in core skills and values."
+   },
+   {
+    "t": "Middle School",
+    "d": "Critical thinking and independence."
+   },
+   {
+    "t": "High School",
+    "d": "Preparing for university and life."
+   }
+  ]
+ },
+ "cta": {
+  "title": "Your child's next chapter starts here",
+  "sub": "Join a community where every child is known, challenged and inspired — from the first visit to the first day of school.",
+  "btn": "Book a visit",
+  "secondary": "Talk to admissions"
+ },
+ "backToTop": "Back to top",
+ "chat": {
+  "title": "Aurora assistant",
+  "hello": "Hi! Ask me about admissions, fees, grades or contact details.",
+  "ph": "Type your question…",
+  "demo": "Demo mode",
+  "err": "Something went wrong. Please try again.",
+  "quick": [
+   "How do I apply?",
+   "Tuition fees",
+   "Grade levels",
+   "Contact details"
+  ]
+ },
+ "footer": {
+  "note": "",
+  "blurb": "A modern learning community nurturing confident, creative and caring students.",
+  "explore": "Explore",
+  "community": "Community",
+  "tagline": "Learning for a changing world.",
+  "rights": "All rights reserved.",
+  "contact": "Contact",
+  "addr": "[School address]",
+  "tel": "[Phone number]",
+  "mail": "[Email address]",
+  "follow": "Follow us"
+ },
+ "marquee": [
+  "Safe & caring",
+  "Bilingual learning",
+  "STEM & Arts",
+  "Small classes",
+  "Global outlook",
+  "Character first"
+ ],
+ "philosophy": {
+  "k": "Our philosophy",
+  "text": "We believe every child is born curious. Our job is to protect that curiosity, guide it with great teachers, and turn it into knowledge, character and confidence for life."
+ },
+ "why": {
+  "title": "Why choose our school?",
+  "items": [
+   {
+    "t": "Caring community",
+    "d": "Every child is known by name and supported."
+   },
+   {
+    "t": "Future-ready skills",
+    "d": "Coding, robotics and critical thinking from early on."
+   },
+   {
+    "t": "Bilingual excellence",
+    "d": "Strong Arabic and English side by side."
+   },
+   {
+    "t": "Safe campus",
+    "d": "Secure, supervised and welcoming spaces."
+   },
+   {
+    "t": "Expert educators",
+    "d": "Qualified teachers who keep learning too."
+   },
+   {
+    "t": "Whole-child focus",
+    "d": "Academics, arts, sport and values together."
+   }
+  ]
+ },
+ "facilities": {
+  "title": "Explore our campus",
+  "ph": "Photo placeholder",
+  "items": [
+   {
+    "t": "Science labs",
+    "d": "Hands-on experiments in modern, safe laboratories."
+   },
+   {
+    "t": "Library",
+    "d": "A calm space with books, digital resources and reading nooks."
+   },
+   {
+    "t": "Sports",
+    "d": "Courts and fields for team games and fitness."
+   },
+   {
+    "t": "Technology hub",
+    "d": "Computers, robotics kits and maker tools."
+   }
+  ]
+ },
+ "life": {
+  "title": "Life beyond the classroom",
+  "items": [
+   {
+    "t": "Sports",
+    "d": "Teams, tournaments and healthy habits."
+   },
+   {
+    "t": "Arts & music",
+    "d": "Studio, stage and creative expression."
+   },
+   {
+    "t": "Clubs",
+    "d": "Robotics, debate, coding and more."
+   },
+   {
+    "t": "Events",
+    "d": "Celebrations that bring families together."
+   }
+  ]
+ },
+ "testimonials": {
+  "title": "What families say",
+  "note": "",
+  "items": [
+   {
+    "q": "My daughter runs to school every morning. The teachers truly know her.",
+    "n": "Parent name",
+    "r": "Parent, Grade 3"
+   },
+   {
+    "q": "I learned to speak up and lead projects here.",
+    "n": "Student name",
+    "r": "Student, Grade 11"
+   },
+   {
+    "q": "Communication is clear and the care is real.",
+    "n": "Parent name",
+    "r": "Parent, KG2"
+   }
+  ]
+ },
+ "news": {
+  "title": "News & announcements",
+  "items": [
+   {
+    "c": "Admissions",
+    "t": "Applications open for the new academic year",
+    "dt": ""
+   },
+   {
+    "c": "Events",
+    "t": "Annual science fair invites families",
+    "dt": ""
+   },
+   {
+    "c": "Achievements",
+    "t": "Students shine at an inter-school competition",
+    "dt": ""
+   }
+  ]
+ },
+ "about": {
+  "title": "About our school",
+  "intro": "A learning community built on curiosity, care and high expectations.",
+  "mission": {
+   "t": "Our mission",
+   "d": "To educate confident, creative and compassionate learners who contribute to their community."
+  },
+  "vision": {
+   "t": "Our vision",
+   "d": "A school where every child discovers their strengths and is ready for an ever-changing world."
+  },
+  "values": {
+   "title": "What we stand for",
+   "items": [
+    {
+     "t": "Curiosity",
+     "d": "We ask questions and love finding the answers."
+    },
+    {
+     "t": "Respect",
+     "d": "We listen, include and care for one another."
+    },
+    {
+     "t": "Excellence",
+     "d": "We aim high and support every learner to reach it."
+    },
+    {
+     "t": "Integrity",
+     "d": "We do what is right, even when no one is watching."
+    }
+   ]
+  },
+  "leaders": {
+   "title": "Leadership & faculty",
+   "note": "",
+   "items": [
+    {
+     "n": "Principal name",
+     "r": "Principal"
+    },
+    {
+     "n": "Vice principal name",
+     "r": "Vice Principal"
+    },
+    {
+     "n": "Head of academics",
+     "r": "Academics"
+    },
+    {
+     "n": "Head of student life",
+     "r": "Student Life"
+    }
+   ]
+  },
+  "history": {
+   "title": "Our story",
+   "note": "",
+   "items": [
+    {
+     "y": "20XX",
+     "t": "Founded",
+     "d": "A small group of educators opened our first classrooms."
+    },
+    {
+     "y": "20XX",
+     "t": "Growing together",
+     "d": "New grades, labs and a library joined the campus."
+    },
+    {
+     "y": "20XX",
+     "t": "A wider world",
+     "d": "Partnerships and programs opened new horizons."
+    },
+    {
+     "y": "Today",
+     "t": "Looking ahead",
+     "d": "Building the school of tomorrow with our families."
+    }
+   ]
+  },
+  "awards": {
+   "title": "Achievements & accreditations",
+   "note": "",
+   "items": [
+    "Accreditation",
+    "Award",
+    "Partnership",
+    "Certification"
+   ]
+  }
+ },
+ "academics": {
+  "title": "Academics",
+  "intro": "A balanced curriculum that builds strong foundations and independent thinkers.",
+  "philosophy": {
+   "k": "Academic philosophy",
+   "text": "Learning is most powerful when it is active, connected and meaningful. We teach children how to think, not only what to know, so they grow into adaptable learners for life."
+  },
+  "levels": {
+   "title": "Grade levels",
+   "note": "",
+   "items": [
+    {
+     "t": "Early Years",
+     "g": "KG1–KG2",
+     "d": "Play-based learning, language and social skills."
+    },
+    {
+     "t": "Primary",
+     "g": "Grades 1–5",
+     "d": "Core literacy, numeracy and curiosity-driven projects."
+    },
+    {
+     "t": "Middle School",
+     "g": "Grades 6–8",
+     "d": "Deeper subjects, study skills and teamwork."
+    },
+    {
+     "t": "High School",
+     "g": "Grades 9–12",
+     "d": "University pathways, research and leadership."
+    }
+   ]
+  },
+  "curriculum": {
+   "title": "Curriculum",
+   "note": "",
+   "items": [
+    {
+     "t": "Languages",
+     "d": "Arabic and English reading, writing, speaking and listening."
+    },
+    {
+     "t": "Mathematics",
+     "d": "From number sense to problem solving and reasoning."
+    },
+    {
+     "t": "Sciences",
+     "d": "Hands-on investigation across biology, chemistry and physics."
+    },
+    {
+     "t": "Humanities",
+     "d": "History, geography and civic understanding."
+    },
+    {
+     "t": "Arts & PE",
+     "d": "Creative expression, movement and well-being."
+    }
+   ]
+  },
+  "method": {
+   "title": "How we teach",
+   "items": [
+    {
+     "t": "Inquire",
+     "d": "Start with questions that spark curiosity."
+    },
+    {
+     "t": "Explore",
+     "d": "Investigate through practice and collaboration."
+    },
+    {
+     "t": "Create",
+     "d": "Apply learning to real projects."
+    },
+    {
+     "t": "Reflect",
+     "d": "Review progress and set next goals."
+    }
+   ]
+  },
+  "programs": {
+   "title": "Academic programs",
+   "items": [
+    {
+     "t": "STEM & Robotics",
+     "d": "Coding, engineering and design challenges."
+    },
+    {
+     "t": "Language Excellence",
+     "d": "Strong Arabic and English communication."
+    },
+    {
+     "t": "Arts & Music",
+     "d": "Studio, performance and creative portfolios."
+    },
+    {
+     "t": "Leadership & Service",
+     "d": "Student councils and community projects."
+    }
+   ]
+  },
+  "outcomes": {
+   "title": "Learning outcomes",
+   "items": [
+    "Think critically and solve problems",
+    "Communicate clearly in two languages",
+    "Work well in teams",
+    "Use technology responsibly",
+    "Show curiosity and resilience",
+    "Act with integrity and empathy"
+   ]
+  }
+ },
+ "admissions": {
+  "title": "Admissions",
+  "intro": "We'd love to meet your family. Here is everything you need to join our community.",
+  "process": {
+   "title": "Admission process",
+   "items": [
+    {
+     "t": "Inquire",
+     "d": "Send us your details and we'll get in touch."
+    },
+    {
+     "t": "Visit",
+     "d": "Tour the campus and meet our team."
+    },
+    {
+     "t": "Apply",
+     "d": "Submit the application and documents."
+    },
+    {
+     "t": "Assessment",
+     "d": "A friendly meeting or assessment for your child."
+    },
+    {
+     "t": "Enrol",
+     "d": "Receive your offer and complete enrolment."
+    }
+   ]
+  },
+  "requirements": {
+   "title": "Requirements & documents",
+   "items": [
+    "Completed application form",
+    "Child's birth certificate",
+    "Parent or guardian ID",
+    "Recent passport-size photos",
+    "Previous school reports (if applicable)",
+    "Vaccination record"
+   ]
+  },
+  "tuition": {
+   "title": "Tuition & fees",
+   "text": "Tuition varies by grade level. Contact our admissions team for the current fee schedule and payment options.",
+   "btn": "Request fee details"
+  },
+  "faq": {
+   "title": "Frequently asked questions",
+   "items": [
+    {
+     "q": "When can my child start?",
+     "a": "Contact admissions to confirm available places for your child's grade."
+    },
+    {
+     "q": "Can we visit the campus?",
+     "a": "Yes. Send an inquiry below and we'll arrange a visit."
+    },
+    {
+     "q": "Do you accept applications during the year?",
+     "a": "Applications are reviewed throughout the year, subject to available places."
+    },
+    {
+     "q": "How are fees paid?",
+     "a": "The admissions team shares payment options along with the fee schedule."
+    }
+   ]
+  },
+  "form": {
+   "title": "Start your application",
+   "sub": "Tell us about your child and we'll reply as soon as possible.",
+   "name": "Parent / guardian name",
+   "email": "Email",
+   "phone": "Phone",
+   "child": "Child's name",
+   "grade": "Grade applying for",
+   "msg": "Message (optional)",
+   "send": "Send inquiry",
+   "sending": "Sending…",
+   "ok": "Thank you! We've received your inquiry and will be in touch.",
+   "err": "We couldn't send your inquiry. Please try again or contact us directly."
+  }
+ },
+ "campus": {
+  "title": "Campus & Facilities",
+  "intro": "Spaces designed for learning, movement, creativity and community.",
+  "exploreTitle": "Explore our campus",
+  "items": [
+   {
+    "t": "Classrooms & laboratories",
+    "d": "Bright, flexible classrooms and science laboratories where learning is hands-on.",
+    "f": [
+     "Flexible seating for group work",
+     "Equipped science laboratories",
+     "Safe, supervised experiments"
+    ]
+   },
+   {
+    "t": "Library",
+    "d": "A calm space with books, digital resources and reading corners.",
+    "f": [
+     "Books in Arabic and English",
+     "Quiet study areas",
+     "Digital learning resources"
+    ]
+   },
+   {
+    "t": "Sports",
+    "d": "Space to play, train and compete, all year round.",
+    "f": [
+     "Courts and playing fields",
+     "Team and individual sports",
+     "Qualified coaches"
+    ]
+   },
+   {
+    "t": "Technology hub",
+    "d": "Computers, robotics kits and maker tools for building and coding.",
+    "f": [
+     "Coding and robotics",
+     "Computers for every class",
+     "Creative design tools"
+    ]
+   },
+   {
+    "t": "Student activity areas",
+    "d": "Corners to gather, rehearse, create and relax between lessons.",
+    "f": [
+     "Art and music spaces",
+     "Club meeting rooms",
+     "Outdoor gathering areas"
+    ]
+   }
+  ],
+  "gallery": {
+   "title": "Photo gallery",
+   "close": "Close",
+   "view": "View photo"
+  }
+ },
+ "student": {
+  "title": "Student Life",
+  "intro": "A vibrant community where every student finds a place to grow, create and belong.",
+  "overviewTitle": "Beyond the classroom",
+  "overview": [
+   {
+    "t": "Sports",
+    "d": "Teams, training and healthy habits."
+   },
+   {
+    "t": "Arts & creativity",
+    "d": "Music, drama and visual arts."
+   },
+   {
+    "t": "Clubs",
+    "d": "Interests that turn into friendships."
+   },
+   {
+    "t": "Events",
+    "d": "Celebrations that bring us together."
+   },
+   {
+    "t": "Community",
+    "d": "Service and leadership that matter."
+   }
+  ],
+  "sections": [
+   {
+    "t": "Sports",
+    "d": "Team spirit, fitness and fair play for every level of ability.",
+    "f": [
+     "Team and individual sports",
+     "Inter-class tournaments",
+     "Coaching for all abilities"
+    ]
+   },
+   {
+    "t": "Arts & creativity",
+    "d": "A creative home for young artists, musicians and performers.",
+    "f": [
+     "Visual arts studio",
+     "Music and choir",
+     "Drama and performance"
+    ]
+   },
+   {
+    "t": "Events & celebrations",
+    "d": "Traditions and celebrations that build school spirit and welcome families in.",
+    "f": [
+     "Sports day",
+     "Science fair",
+     "Cultural and national celebrations"
+    ]
+   }
+  ],
+  "clubs": {
+   "title": "Clubs & student communities",
+   "filters": {
+    "all": "All",
+    "stem": "STEM",
+    "arts": "Arts",
+    "lead": "Leadership",
+    "sport": "Sports"
+   },
+   "items": [
+    {
+     "t": "Robotics",
+     "c": "stem",
+     "d": "Design, build and program robots."
+    },
+    {
+     "t": "Coding",
+     "c": "stem",
+     "d": "Create games and apps from scratch."
+    },
+    {
+     "t": "Art studio",
+     "c": "arts",
+     "d": "Draw, design and experiment with materials."
+    },
+    {
+     "t": "Choir",
+     "c": "arts",
+     "d": "Sing together and perform."
+    },
+    {
+     "t": "Debate",
+     "c": "lead",
+     "d": "Build confidence and persuasive speaking."
+    },
+    {
+     "t": "Student council",
+     "c": "lead",
+     "d": "A student voice in school decisions."
+    },
+    {
+     "t": "Community service",
+     "c": "lead",
+     "d": "Projects that give back."
+    },
+    {
+     "t": "Athletics",
+     "c": "sport",
+     "d": "Running, fitness and field events."
+    }
+   ]
+  }
+ },
+ "newsPage": {
+  "title": "News & Events",
+  "intro": "Stories, announcements and upcoming events from our school community.",
+  "featured": "Featured",
+  "read": "Read more",
+  "back": "Back to news",
+  "eventsTitle": "Upcoming events",
+  "more": "More stories"
+ },
+ "contact": {
+  "title": "Contact us",
+  "intro": "We'd love to hear from you. Send us a message and our team will reply as soon as possible.",
+  "info": "Get in touch",
+  "address": "Address",
+  "phone": "Phone",
+  "email": "Email",
+  "hours": "Opening hours",
+  "follow": "Follow us",
+  "mapTitle": "Find us",
+  "form": {
+   "title": "Send us a message",
+   "name": "Your name",
+   "email": "Email",
+   "phone": "Phone (optional)",
+   "subject": "Subject",
+   "msg": "Message",
+   "send": "Send message",
+   "sending": "Sending…",
+   "ok": "Thank you! Your message has been sent and we'll reply soon.",
+   "err": "We couldn't send your message. Please try again or contact us directly."
+  },
+  "faq": {
+   "title": "Frequently asked questions",
+   "items": [
+    {
+     "q": "How can I reach the admissions team?",
+     "a": "Use the form on this page or the inquiry form on the Admissions page."
+    },
+    {
+     "q": "Can I arrange a campus visit?",
+     "a": "Yes. Send us a message with your preferred time and we'll confirm."
+    },
+    {
+     "q": "How quickly will you reply?",
+     "a": "We aim to respond as soon as possible during school working days."
+    },
+    {
+     "q": "Who do I contact about my child's progress?",
+     "a": "Please contact your child's class teacher or the school office."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+:root{--bg:#FFFFFF;--fg:#101426;--mut:#586079;--pri:#3544E8;--acc:#F29A1F;--glass:rgba(16,20,38,.035);--line:rgba(16,20,38,.1);--nav:rgba(255,255,255,.62);--nav-strong:rgba(255,255,255,.86);--dot:rgba(16,20,38,.055)}
+.dark{--bg:#0A0F1F;--fg:#F2F4FA;--mut:#9AA3BD;--pri:#4C5BFF;--acc:#FFB547;--glass:rgba(255,255,255,.06);--line:rgba(255,255,255,.12);--nav:rgba(10,15,31,.5);--nav-strong:rgba(10,15,31,.82);--dot:rgba(255,255,255,.05)}
+body{background-color:var(--bg);background-image:radial-gradient(var(--dot) 1px,transparent 0);background-size:26px 26px;color:var(--fg);font-family:var(--font-body),sans-serif;transition:background-color .4s,color .4s}
+h1{font-size:clamp(2rem,1.2rem + 2.4vw,3rem);line-height:1.12;letter-spacing:-.02em}
+h2{font-size:clamp(1.5rem,1.1rem + 1.5vw,2.25rem);line-height:1.2;letter-spacing:-.01em}
+/* tighter vertical rhythm on phones — unlayered so these beat the utility classes */
+@media (max-width:767px){
+  .py-24{padding-block:3rem}
+  .py-20{padding-block:2.75rem}
+  .py-16{padding-block:2rem}
+  .pb-16{padding-bottom:2.5rem}
+  .pb-12{padding-bottom:2rem}
+}
+/* reduced motion: no pin, so the program cards must be reachable by native scroll */
+@media (prefers-reduced-motion:reduce){
+  #programs{overflow-x:auto;overflow-y:hidden}
+}
+.font-display{font-family:var(--font-display),sans-serif}
+[dir=rtl] body,[dir=rtl] .font-display{font-family:var(--font-ar),sans-serif}
+.glass{background:var(--glass);backdrop-filter:blur(18px);border:1px solid var(--line);border-radius:32px}
+.glass-strong{background:var(--nav-strong);backdrop-filter:blur(16px);border:1px solid var(--line);border-radius:24px;box-shadow:0 12px 36px rgba(16,20,38,.18)}
+:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
+[data-reveal]{opacity:0;transform:translateY(26px);transition:opacity .8s cubic-bezier(.22,1,.36,1),transform .8s cubic-bezier(.22,1,.36,1);transition-delay:var(--reveal-delay,0ms)}
+[data-reveal].is-in{opacity:1;transform:none}
+[data-stagger]>[data-reveal]:nth-child(2){transition-delay:.08s}
+[data-stagger]>[data-reveal]:nth-child(3){transition-delay:.16s}
+[data-stagger]>[data-reveal]:nth-child(4){transition-delay:.24s}
+[data-stagger]>[data-reveal]:nth-child(5){transition-delay:.32s}
+[data-stagger]>[data-reveal]:nth-child(6){transition-delay:.4s}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}[data-reveal]{opacity:1!important;transform:none!important}}
+@keyframes marquee{to{transform:translateX(-50%)}}
+.marquee{animation:marquee 35s linear infinite}
+@keyframes fade-up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.anim-fade{animation:fade-up .55s cubic-bezier(.22,1,.36,1) both}
+[dir=rtl] .marquee{animation-direction:reverse}
+.nav-glass{background:var(--nav);backdrop-filter:blur(22px) saturate(170%);border:1px solid var(--line);border-radius:999px;box-shadow:0 8px 32px rgba(16,20,38,.1),inset 0 1px 0 rgba(255,255,255,.28);transition:background .5s,box-shadow .5s,padding .5s}
+.nav-glass.is-scrolled{background:var(--nav-strong);box-shadow:0 16px 50px rgba(16,20,38,.16),inset 0 1px 0 rgba(255,255,255,.35)}
+.dark .nav-glass{box-shadow:0 8px 32px rgba(0,0,0,.25),inset 0 1px 0 rgba(255,255,255,.08)}
+.nav-panel{border-radius:28px}
