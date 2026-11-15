@@ -9,7 +9,7 @@ export async function POST(req: Request) {
     try {
       const r = await fetch("https://api.anthropic.com/v1/messages", {
         method: "POST", headers: { "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json" },
-        body: JSON.stringify({ model: process.env.ANTHROPIC_MODEL || "claude-sonnet-5-5", max_tokens: 500, messages,
+        body: JSON.stringify({ model: process.env.ANTHROPIC_MODEL || "claude-3-5-sonnet-20241022", max_tokens: 500, messages,
           system: `You are the admissions assistant on a school website. Reply briefly in ${lang === "ar" ? "Arabic" : "English"}. Use ONLY the school facts below; if something isn't covered, say you don't know and point to the contact page. SCHOOL FACTS: ${process.env.SCHOOL_FACTS || "none provided"}` }),
       });
       if (r.ok) { const j = await r.json(); return NextResponse.json({ reply: j.content?.[0]?.text ?? "", demo: false }); }

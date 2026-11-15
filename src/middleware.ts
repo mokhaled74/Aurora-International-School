@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 const L = ["en", "ar"];
-export function proxy(r: NextRequest) {
+export function middleware(r: NextRequest) {
   const p = r.nextUrl.pathname;
   if (L.some((l) => p === `/${l}` || p.startsWith(`/${l}/`))) return NextResponse.next();
   const c = r.cookies.get("lang")?.value ?? "";
